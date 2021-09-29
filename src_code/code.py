@@ -19,7 +19,8 @@ class App(QWidget):
     def initUI(self):
         self.setWindowTitle(self.title)
         self.setGeometry(self.center, self.top, self.width, self.height)
-        choice = self.Get_CaptureChoice()
+        # choice = self.Get_CaptureChoice()
+        choice = 2
         if choice == 1:
             self.Live_Cap()
         elif choice == 2:
